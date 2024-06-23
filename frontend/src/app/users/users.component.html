@@ -1,0 +1,30 @@
+<div class="user-search-container">
+  <div class="user-search-box">
+    <form (submit)="searchUsers()">
+      <label for="identification">Número de Identificación:</label>
+      <input type="text" id="identification" name="identification" [(ngModel)]="identification" required>
+      <button type="submit">Buscar</button>
+    </form>
+    <div *ngIf="users.length > 0" class="user-results">
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Identificación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{ user.nombre }}</td>
+            <td>{{ user.apellido }}</td>
+            <td>{{ user.identificacion }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div *ngIf="users.length===0 && showResults">
+      <p>No se encontraron resultados.</p>
+    </div>
+  </div>
+</div>

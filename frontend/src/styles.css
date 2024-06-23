@@ -1,0 +1,33 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #280194; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 10px 0; /* Espaciado interior */
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.navbar-nav {
+  list-style-type: none; /* Quitar viñetas */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px; /* Espaciado entre elementos */
+}
+
+.nav-link {
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  color: #fff; /* Color del texto de los enlaces */
+  font-size: 20px; /* Tamaño de fuente */
+  transition: color 0.3s ease; /* Transición de color */
+}
+
+.nav-link:hover {
+  color: #ccc; /* Cambio de color al pasar el mouse */
+}

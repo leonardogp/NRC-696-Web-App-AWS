@@ -1,0 +1,74 @@
+# Dependencias de Node.js
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de construcción
+frontend/dist/
+backend/dist/
+frontend/build/
+backend/build/
+
+# Directorios temporales
+tmp/
+temp/
+
+# Directorios de cobertura
+coverage/
+
+# Salida de la terminal
+.npm/
+
+# Archivos de configuración local
+/.env
+/.env.local
+/.env.*.local
+
+# Editor config
+/.vscode/
+/.idea/
+
+# Sistemas de archivos de MacOS
+.DS_Store
+
+# Sistemas de archivos de Windows
+Thumbs.db
+ehthumbs.db
+
+# Archivos de caché y configuraciones de Angular
+.angular/
+
+# Otros archivos y carpetas que pueden ser necesarios
+.sass-cache/
+connect.lock
+coverage/
+lib-cov/
+*.seed
+*.log
+*.pid
+*.pid.lock
+
+# Archivos de configuración de TypeScript
+**/*.tsbuildinfo
+
+# Archivos de dependencia de paquetes
+*.tgz
+
+# Archivos y carpetas relacionadas con archivos de tests
+testem.log
+test-results/
+
+# Excluye carpetas generadas por el compilador de TypeScript
+frontend/out-tsc
+backend/out-tsc
+
+# Archivos de configuración de IDEs
+*.sublime-workspace
+*.sublime-project

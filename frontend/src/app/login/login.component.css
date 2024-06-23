@@ -1,0 +1,74 @@
+.main {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Alto completo de la pantalla */
+  }
+  
+  .login-container {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    padding: 20px; /* Espaciado interior */
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde del contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .login-container h2 {
+    text-align: center; /* Centrar el título */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Espaciado entre grupos de campos */
+  }
+  
+  .form-group label {
+    display: block; /* Mostrar etiquetas como bloques */
+    margin-bottom: 5px; /* Espaciado inferior de las etiquetas */
+  }
+  
+  .form-control {
+    width: 100%; /* Ancho completo del campo de entrada */
+    padding: 8px; /* Espaciado interior */
+    font-size: 14px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  .btn-primary {
+    display: block; /* Mostrar el botón como bloque */
+    width: 100%; /* Ancho completo del botón */
+    padding: 10px; /* Espaciado interior */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quitar borde del botón */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el mouse */
+  }
+  
+  .register-link {
+    text-align: center; /* Centrar el enlace */
+    margin-top: 10px; /* Espaciado superior */
+  }
+  
+  .register-link a {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: #007bff; /* Color del texto del enlace */
+    transition: color 0.3s ease; /* Transición suave del color */
+  }
+  
+  .register-link a:hover {
+    color: #0056b3; /* Cambio de color al pasar el mouse */
+  }
+
+  .error-message {
+    margin-top: 10px;
+    color: red;
+    font-size: 0.9em;
+  }
+  
